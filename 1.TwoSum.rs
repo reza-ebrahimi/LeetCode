@@ -6,7 +6,7 @@
 /// https://leetcode.com/problems/two-sum
 ///
 /// Time Submitted | Status   | Runtime | Memory | Language
-/// 2020/03/10     | Accepted | 28 ms 	| 2 MB | cpp
+/// 2020/03/10     | Accepted | 28 ms 	| 2 MB   | rust
 ///
 /// Runtime: 28 ms, faster than 36.02% of Rust online submissions for Two Sum.
 /// Memory Usage: 2 MB, less than 100.00% of Rust online submissions for Two Sum.
