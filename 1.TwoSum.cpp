@@ -8,6 +8,8 @@
 /// Time Submitted | Status   | Runtime | Memory | Language
 /// 2020/03/10     | Accepted | 132 ms	| 8.7 MB | cpp
 ///
+/// Runtime: 132 ms, faster than 34.54% of C++ online submissions for Two Sum.
+/// Memory Usage: 8.7 MB, less than 100.00% of C++ online submissions for Two Sum.
 ///
 
 class Solution {
