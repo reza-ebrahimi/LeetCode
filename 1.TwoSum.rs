@@ -2,7 +2,7 @@
 /// LeetCode 
 /// By Reza Ebrahimi <reza.ebrahimi.dev@gmail.com>
 ///
-/// 3. Two Sum
+/// Two Sum Problem
 /// https://leetcode.com/problems/two-sum
 ///
 /// Time Submitted | Status   | Runtime | Memory | Language
