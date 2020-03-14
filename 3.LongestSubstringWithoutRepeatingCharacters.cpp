@@ -2,7 +2,7 @@
 /// LeetCode 
 /// By Reza Ebrahimi <reza.ebrahimi.dev@gmail.com>
 ///
-/// 3. Longest Substring Without Repeating Characters
+/// Longest Substring Without Repeating Characters
 /// https://leetcode.com/problems/longest-substring-without-repeating-characters
 ///
 /// Time Submitted | Status   | Runtime | Memory | Language
