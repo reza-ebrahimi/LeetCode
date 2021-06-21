@@ -10,6 +10,8 @@
 /// Time Submitted: 06/22/2021 00:07
 ///
 
+class Solution {
+public:
     int search(vector<int>& nums, int target) {
         return binary_search_ex(move(nums), target, 0);
     }
@@ -52,3 +54,4 @@
 
         return ret + offset;
     }    
+};
