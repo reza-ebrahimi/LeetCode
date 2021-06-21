@@ -10,13 +10,11 @@
 /// Time Submitted: 06/22/2021 00:07
 ///
 
-class Solution {
-public:
     int search(vector<int>& nums, int target) {
         return binary_search_ex(move(nums), target, 0);
     }
     
-    int binary_search_ex(vector<int> nums, int target, int offset) {
+    int binary_search_ex(vector<int> &&nums, int target, int offset) {
         int ret = -1;
         int len = nums.size();
         int mid = len / 2;
@@ -33,10 +31,10 @@ public:
 
         if (target < nums[mid]) {
             std::vector<int> vec(nums.begin(), nums.begin() + mid);
-            ret = binary_search_ex(vec, target, 0);
+            ret = binary_search_ex(move(vec), target, 0);
         } else if (target > nums[mid]) {
             std::vector<int> vec(nums.begin() + mid, nums.end());
-            ret = binary_search_ex(vec, target, mid);
+            ret = binary_search_ex(move(vec), target, mid);
         } else {
             return mid + offset;
         }
@@ -54,4 +52,3 @@ public:
 
         return ret + offset;
     }    
-};
